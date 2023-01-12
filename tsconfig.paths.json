@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./components/*"],
+      "@config/*": ["./config/*"],
+      "@enum": ["./enum"],
+      "@enum/*": ["./enum/*"],
+      "@pages/": ["./pages/"],
+      "@pages/*": ["./pages/*"],
+      "@store": ["./store"],
+      "@store/*": ["./store/*"],
+      "@styles/*": ["./styles/*"],
+      "@landing": ["./landing"],
+      "@landing/*": ["./landing/*"],
+      "@eth/*": ["./eth/*"],
+      "@api/*": ["./api/*"],
+      "@constants/*": ["./constants/*"],
+      "@i18n": ["./i18n"],
+      "@i18n/*": ["./i18n/*"],
+
+      "@app": ["./app"],
+      "@app/*": ["./app/*"],
+      "@features": ["./features"],
+      "@features/*": ["./features/*"],
+      "@entities": ["./entities"],
+      "@entities/*": ["./entities/*"],
+      "@services": ["./services"],
+      "@services/*": ["./services/*"],
+      "@shared": ["./shared"],
+      "@shared/*": ["./shared/*"],
+      "@widgets": ["./widgets"],
+      "@widgets/*": ["./widgets/*"]
+    }
+  }
+}
